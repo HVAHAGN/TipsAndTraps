@@ -14,7 +14,11 @@ namespace DataObjectTypes_03
         {
             Uri a = new Uri("https://pluralsight.com");
             Uri b = new Uri("https://pluralsight.com");
-            var areEqual = a == b;
+            var areEqual = a == b;  //true
+
+            var isSameReference = object.ReferenceEquals(a, b);  //false
+            b = a;
+            isSameReference = object.ReferenceEquals(a, b);  //true
         }
     }
 }
