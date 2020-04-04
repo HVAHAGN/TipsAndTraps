@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorikingWithFilesPathsURIsC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorikingWithFilesPathsURIsClassLibrary.Tests", "WorikingWithFilesPathsURIsClassLibrary.Tests\WorikingWithFilesPathsURIsClassLibrary.Tests.csproj", "{12C4DC0E-ADBA-42ED-AEB9-7CD9B4BB1D75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizingAndStructuring_04", "OrganizingAndStructuring_04\OrganizingAndStructuring_04.csproj", "{69347233-BA3F-40EE-9D94-9304FD0A4752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizingAndStructuring_04.Tests", "OrganizingAndStructuring_04.Tests\OrganizingAndStructuring_04.Tests.csproj", "{E31372E5-A98D-4A2F-AC03-E0DA7533E6D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{12C4DC0E-ADBA-42ED-AEB9-7CD9B4BB1D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12C4DC0E-ADBA-42ED-AEB9-7CD9B4BB1D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12C4DC0E-ADBA-42ED-AEB9-7CD9B4BB1D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69347233-BA3F-40EE-9D94-9304FD0A4752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69347233-BA3F-40EE-9D94-9304FD0A4752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69347233-BA3F-40EE-9D94-9304FD0A4752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69347233-BA3F-40EE-9D94-9304FD0A4752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31372E5-A98D-4A2F-AC03-E0DA7533E6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31372E5-A98D-4A2F-AC03-E0DA7533E6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31372E5-A98D-4A2F-AC03-E0DA7533E6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31372E5-A98D-4A2F-AC03-E0DA7533E6D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
