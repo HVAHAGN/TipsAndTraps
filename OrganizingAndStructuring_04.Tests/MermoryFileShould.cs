@@ -27,6 +27,15 @@ namespace OrganizingAndStructuring_04.Tests
 
             Assert.Equal(42, file.Bytes[0]);
         }
+        [Fact]
+        public void ProvideIndexer()
+        {
+            MemoryFile file = new MemoryFile("testfile.txt");
+
+            file[0] = 42;
+
+            Assert.Equal(42, file[0]);
+        }
 
     }
 }

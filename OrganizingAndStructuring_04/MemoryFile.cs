@@ -22,5 +22,16 @@ namespace OrganizingAndStructuring_04
         {
             Bytes[0] = b;
         }
+        //public byte this[int i]
+        //{
+        //    get { return Bytes[i]; }
+        //    set { Bytes[i]=value; }
+        //}
+        public byte this[int i]
+        {
+            get => Bytes[i];
+            set => Bytes[i] = value;
+        }
+            
     }
 }
